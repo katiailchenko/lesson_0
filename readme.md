@@ -6,3 +6,4 @@
 * css
 
 [Demo](https://katiailchenko.github.io/lesson_0/)
+![PowToon](img/lamp.png)
