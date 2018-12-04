@@ -1,0 +1,58 @@
+@font-face {
+	font-family: muller;
+	font-weight: 400;
+	src:url(../fonts/muller/muller-regular.eot) format('eot');
+	src:url(../fonts/muller/muller-regular.otf) format('otf');
+	src:url(../fonts/muller/muller-regular.woff) format('woff');
+	src:url(../fonts/muller/muller-regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: muller;
+	font-weight: 500;
+	src:url(../fonts/muller/muller-medium.eot) format('eot');
+	src:url(../fonts/muller/muller-medium.otf) format('otf');
+	src:url(../fonts/muller/muller-medium.woff) format('woff');
+	src:url(../fonts/muller/muller-medium.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: muller;
+	font-weight: 700;
+	src:url(../fonts/muller/muller-bold.eot) format('eot');
+	src:url(../fonts/muller/muller-bold.otf) format('otf');
+	src:url(../fonts/muller/muller-bold.woff) format('woff');
+	src:url(../fonts/muller/muller-bold.woff2) format('woff2');
+}
+@font-face {
+	font-family: VisbyCF;
+	font-weight: 700;
+	src:url(../fonts/VisbyCF/VisbyCF-Bold.eot) format('eot');
+	src:url(../fonts/VisbyCF/VisbyCF-Bold.otf) format('otf');
+	src:url(../fonts/VisbyCF/VisbyCF-Bold.woff) format('woff');
+	src:url(../fonts/VisbyCF/VisbyCF-Bold.woff2) format('woff2');
+}
+@font-face {
+	font-family: VisbyCF;
+	font-weight: 800;
+	src:url(../fonts/VisbyCF/VisbyCF-ExtraBold.eot) format('eot');
+	src:url(../fonts/VisbyCF/VisbyCF-ExtraBold.otf) format('otf');
+	src:url(../fonts/VisbyCF/VisbyCF-ExtraBold.woff) format('woff');
+	src:url(../fonts/VisbyCF/VisbyCF-ExtraBold.woff2) format('woff2');
+}
+@font-face {
+	font-family: VisbyCF;
+	font-weight: 500;
+	src:url(../fonts/VisbyCF/VisbyCF-Heavy.eot) format('eot');
+	src:url(../fonts/VisbyCF/VisbyCF-Heavy.otf) format('otf');
+	src:url(../fonts/VisbyCF/VisbyCF-Heavy.woff) format('woff');
+	src:url(../fonts/VisbyCF/VisbyCF-Heavy.woff2) format('woff2');
+}
+@font-face {
+	font-family: VisbyCF;
+	font-weight: 300;
+	src:url(../fonts/VisbyCF/VisbyCF-Light.eot) format('eot');
+	src:url(../fonts/VisbyCF/VisbyCF-Light.otf) format('otf');
+	src:url(../fonts/VisbyCF/VisbyCF-Light.woff) format('woff');
+	src:url(../fonts/VisbyCF/VisbyCF-Light.woff2) format('woff2');
+}

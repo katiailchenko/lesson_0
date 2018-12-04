@@ -1,0 +1,338 @@
+body {
+	font-family: "VisbyCF", sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	color: #575656;
+	min-width: 320px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	background: linear-gradient(to top, #64c9c4, #f8e9a7);
+	width: 100%;
+	height: 100%;
+	min-height: 650px;
+	position: relative;
+
+}
+
+.header-content {
+	font-family: "muller";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 10%;
+	text-align: center;
+	padding: 15px 20px;
+	z-index: 2;
+}
+
+.logo::before{
+	position: absolute;
+	top: -20px;
+	left: 0;
+	height: 120%;
+	width: 100%;
+	background: #fff;
+	content: '';
+	border-radius: 15px;
+	transform: rotate(-5deg);
+	transition: background-color .5s;
+
+}
+.logo:hover::before {
+	background-color: transparent;
+}
+
+.logo img {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.magnet {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 45px;
+}
+
+.magnet img {
+	height: 100%;
+	float: right;
+}
+.indent {
+	padding-left: 10%;
+}
+.subtitle {
+	font-weight: 700;
+	color: #44a09b;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 62px;
+	line-height: 1.3em;
+	letter-spacing: .02em;
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 60px;
+}
+
+.apply_section {
+	background-color: #fff;
+	border-radius: 0 100px 100px 0;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 130px;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.apply_section time {
+	color: #ff8141;
+	font-size: 28px;
+	font-weight: 500;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+
+.apply_button {
+	color: #fff;
+	background-color: #ff8141;
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 35px;
+	outline: none;
+	transition: background-color .5s;
+	text-decoration: none;
+	display: block;
+	line-height: 65px;
+	text-align: center;
+	letter-spacing: .02em;
+	max-width: 500px;
+}
+
+.apply_button:hover {
+	background-color: #e2560f;
+}
+
+.scroll {
+	font-family: "VisbyCF";
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.scroll a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	transition: color .5s;
+}
+.scroll_text {
+	display: block;
+	margin-bottom: 10px;
+}
+.triangle {
+	width: 0; 
+	height: 0; 
+	border-left: 22px solid transparent;
+	border-right: 22px solid transparent;
+	border-top: 30px solid #fff;
+	display: inline-block;
+	position: relative;
+	transition: border-top-color .5s, transform .5s;
+}
+.triangle::before {
+	content: '';
+	position: absolute;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-top: 18px solid #69cac3;
+	top: -25px;
+	left: -13px;
+
+}
+.scroll a:hover {
+	color: #ff8141;
+}
+.scroll a:hover .triangle {
+	border-top-color: #ff8141;
+	transform: translateY(15px);
+}
+
+main {
+	position: relative;
+}
+.video_wrap {
+	overflow: hidden;
+	float: left;
+	width: 55%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-image: url(../img/poster.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a.play {
+	color: #fff;
+	text-decoration: none;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.65);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -90px;
+	margin-top: -90px;
+	transition: background-color .4s;
+}
+.play pre {
+	color: #000;
+	font-family: 'Poor Story', cursive;
+	font-size: 40px;
+	position: absolute;
+	line-height: .7em;
+	top: 253px;
+	left: 228px;
+	transform: rotate(12deg);
+	transition: color .4s;
+}
+a.play::before {
+	content: '';
+	position: absolute;
+	border-left: 44px solid #fff;
+	border-bottom: 25px solid transparent;
+	border-top: 25px solid transparent;
+	top: 65px;
+	left: 70px;
+}
+.play img {
+	position: absolute;
+	top: 140px;
+	left: 135px;
+	width: 135px;
+	height: 123px;
+}
+a.play:hover {
+	background-color: #ff8141;
+}
+.play:hover pre {
+	color: #ff8141;
+}
+.general {
+	float: right;
+	width: 45%;
+}
+.general .content {
+	padding: 12% 8% 12% 12%;
+}
+.clear {
+	clear: both;
+}
+
+h2 {
+	font-family: "VisbyCF";
+	font-weight: 700;
+	font-size: 42px;
+	color: #3a4a62;
+	padding-bottom: 40px;
+}
+.list {
+	margin-bottom: 60px;
+}
+.list li {
+	padding-bottom: 10px;
+	padding-left: 40px;
+	position: relative;
+}
+li.accent {
+	margin-top: 60px;
+}
+
+.list li::before {
+	content: '';
+	height: 20px;
+	width: 20px;
+	background-image: url(../img/marker.png);
+	background-repeat: 	no-repeat;
+	display: inline-block;
+	background-position: center;
+	position: absolute;
+	left: 0;
+	top: 2px;
+}
+
+.list li.accent::before {
+	background-image: url(../img/heart.png);
+}
+footer {
+	background-color: #273d50;
+}
+footer p {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 56px;
+	line-height: 200px;
+	text-align: center;
+	color: #fff;
+}
+.video_modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: #000;
+
+	
+}
+.video_modal video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.video_modal:target {
+	display: block;
+
+}
+.video_modal .close {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Poor Story', cursive;
+	font-size: 40px;
+	float: right;
+	margin: 15px;
+	transition: color .4s;
+}
+.video_modal .close:hover {
+	color: #ff8141;
+}

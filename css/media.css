@@ -1,0 +1,44 @@
+@media only screen and (max-width : 1200px) {
+	.subtitle {font-size: 28px; margin-bottom: 28px;}
+	h1 {font-size: 55px;}
+	.video_wrap {width: 45%;}
+	.general {width: 55%;}
+	footer p {font-size: 45px;line-height: 1.2em;}
+	footer {padding: 30px 10%;}
+}
+
+@media only screen and (max-width : 992px) {
+	h1 {font-size: 35px;}
+	.apply_section {display: block;border-radius: 0;}
+	.apply_button {margin: auto;}
+	.video_wrap {position: relative;float: none;width: 100%;height: 1000px;}
+	.general {float: none;width: 100%;}
+	.general .content {padding: 80px 10%;}
+}
+
+
+@media only screen and (max-width : 480px) {
+	.apply_button {font-size: 25px;}
+	footer p {font-size: 25px;}
+}
+
+@media only screen and (max-height : 850px) {
+	.subtitle {font-size: 28px; margin-bottom: 18px;}
+	h1 {font-size: 45px;margin-bottom: 40px;}
+	.apply_section {padding-top: 35px;padding-bottom: 35px;padding-right: 110px;}
+}
+
+@media only screen and (max-height : 720px) {
+	.subtitle {font-size: 23px; margin-bottom: 12px;}
+	h1 {font-size: 35px;margin-bottom: 40px;}
+	.apply_section {padding-top: 25px;padding-bottom: 25px;padding-right: 90px;}
+	.apply_section time {font-size: 24px;margin-bottom: 10px;}
+	.apply_button {font-size: 28px;line-height: 55px;}
+	.scroll {font-size: 12px;margin-bottom: 30px;}
+}
+
+@media only screen and (max-width : 768px) {
+	.subtitle {font-size: 20px;}
+	h1 {font-size: 30px;}
+	.indent {padding-right: 10%;}
+}
